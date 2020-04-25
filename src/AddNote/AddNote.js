@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import NotefulForm from '../NotefulForm/NotefulForm'
 import './AddNote.css';
-import AppContext from '../AppContext';
+import ApiContext from '../ApContext';
 import ValidationError from '../ValidationError/ValidationError';
 import NotefulApi from '../NotefulService';
 
