@@ -3,12 +3,12 @@ import NotefulForm from '../NotefulForm/NotefulForm'
 import Error from '../Error'
 import PropTypes from 'prop-types'
 import './AddFolder.css'
-import NoteContext from '../NoteContext'
+import ApiContext from '../ApiContext'
 require('dotenv').config()
 
 
 export default class AddFolder extends Component {
-  static contextType = NoteContext;
+  static contextType = ApiContext;
 
   constructor(props) {
     super(props);
